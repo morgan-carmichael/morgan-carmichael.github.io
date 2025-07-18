@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Spellweaver’s Dashboard",
+    "summary": "A productivity tool for writers to manage characters, timelines, and creative assets.",
+    "stack": ["React", "Tailwind CSS", "Framer Motion"],
+    "demo": "https://example.com/spellweaver",
+    "github": "https://github.com/morgan-carmichael/spellweaver"
+  },
+  {
+    "title": "Forum Skin Designer",
+    "summary": "A live CSS preview tool for designing custom Jcink forum themes.",
+    "stack": ["React", "SCSS", "DOM APIs"],
+    "demo": "https://example.com/skinbuilder",
+    "github": "https://github.com/morgan-carmichael/skinbuilder"
+  },
+  {
+    "title": "Light/Dark Mode Theme Library",
+    "summary": "A pluggable JS/CSS solution for adding theme toggles to any static site or web app.",
+    "stack": ["Vanilla JS", "CSS Variables", "LocalStorage"],
+    "demo": "https://example.com/theme-toggle",
+    "github": "https://github.com/morgan-carmichael/theme-toggle"
+  }
+]
