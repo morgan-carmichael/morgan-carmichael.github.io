@@ -1,0 +1,28 @@
+import React from 'react';
+
+const stats = [
+  { label: 'HTML', value: 9 },
+  { label: 'CSS/SCSS', value: 9 },
+  { label: 'JavaScript', value: 8 },
+  { label: 'React', value: 7 },
+  { label: 'Tailwind', value: 8 },
+  { label: 'Git/GitHub', value: 8 },
+  { label: 'Accessibility', value: 7 },
+  { label: 'Troubleshooting', value: 10 },
+];
+
+export default function StatBlock() {
+  return (
+    <section className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-6">
+      {stats.map((stat) => (
+        <div
+          key={stat.label}
+          className="bg-gray-800 p-3 rounded shadow text-center border border-gray-700"
+        >
+          <h3 className="text-white font-semibold">{stat.label}</h3>
+          <p className="text-lime-400 text-xl">{stat.value} / 10</p>
+        </div>
+      ))}
+    </section>
+  );
+}

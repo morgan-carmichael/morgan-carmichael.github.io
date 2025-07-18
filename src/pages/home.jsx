@@ -1,14 +1,20 @@
 import Layout from '../components/layout'
+import React from 'react';
+import BasicInfo from '../components/homepage/basicInfo';
+import StatBlock from '../components/homepage/statBlock';
+import Traits from '../components/homepage/traits';
+import FlavorText from '../components/homepage/flavorText';
+import EquippedProjects from '../components/homepage/equippedProjects';
 
-const Home = () => (
-  <Layout>
-    <section className="p-8 text-center">
-      <h2 className="text-3xl font-bold mb-4">Hi, I'm Morgan.</h2>
-      <p className="text-lg max-w-xl mx-auto">
-        A front-end developer crafting thoughtful, accessible, and aesthetic digital experiences.
-      </p>
-    </section>
-  </Layout>
-)
+export default function Home() {
+  return (
+    <main className="max-w-4xl mx-auto px-4 py-10 space-y-10 text-white">
+      <BasicInfo />
+      <StatBlock />
+      <Traits />
+      <FlavorText />
+      <EquippedProjects />
+    </main>
+  );
+}
 
-export default Home
