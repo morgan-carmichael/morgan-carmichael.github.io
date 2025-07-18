@@ -28,13 +28,12 @@ export default function EquippedProjects() {
       <ul className="space-y-4">
         {projects.map((proj) => (
           <li key={proj.slot} className="bg-gray-800 p-4 rounded shadow border border-gray-700">
-            <h3 className="text-white text-lg font-semibold">{proj.slot} — {proj.name}</h3>
-            <p className="text-gray-300">{proj.desc}</p>
-            <a
-              href={proj.link}
-              className="text-indigo-400 hover:underline text-sm"
-              target="_blank" rel="noreferrer"
-            >
+            <h3 className="text-indigo-300 font-semibold uppercase text-sm tracking-wide">
+              {proj.slot}
+            </h3>
+            <p className="text-white text-lg font-bold">{proj.name}</p>
+            <p className="text-gray-300 text-sm">{proj.desc}</p>
+            <a href={proj.link} className="text-lime-400 hover:text-lime-300 text-sm underline-offset-4 hover:underline transition">
               View project →
             </a>
           </li>

@@ -16,7 +16,7 @@ export default function Traits() {
         {traits.map((trait) => (
           <li
             key={trait}
-            className="bg-indigo-600 text-white text-sm px-3 py-1 rounded-full"
+            className="bg-indigo-700/80 backdrop-blur text-sm px-3 py-1 rounded-full text-white border border-indigo-500 hover:bg-indigo-600 transition"
           >
             {trait}
           </li>
