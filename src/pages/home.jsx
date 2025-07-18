@@ -5,6 +5,7 @@ import StatBlock from '../components/homepage/statBlock';
 import Traits from '../components/homepage/traits';
 import FlavorText from '../components/homepage/flavorText';
 import EquippedProjects from '../components/homepage/equippedProjects';
+import TestTailwindClasses from '../components/homepage/testTailwindClasses';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Traits />
       <FlavorText />
       <EquippedProjects />
+      <TestTailwindClasses />
     </main>
   );
 }
