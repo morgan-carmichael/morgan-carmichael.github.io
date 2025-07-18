@@ -12,12 +12,9 @@ export default function Traits() {
   return (
     <section className="mt-6">
       <h2 className="text-xl font-bold mb-2">Traits & Proficiencies</h2>
-      <ul className="flex flex-wrap gap-2">
+      <ul className="flex flex-wrap gap-2 justify-center">
         {traits.map((trait) => (
-          <li
-            key={trait}
-            className="bg-indigo-700/80 backdrop-blur text-sm px-3 py-1 rounded-full text-white border border-indigo-500 hover:bg-indigo-600 transition"
-          >
+          <li key={trait} className="bg-indigo-700/80 px-3 py-1 rounded-full text-white text-sm border border-indigo-500">
             {trait}
           </li>
         ))}
